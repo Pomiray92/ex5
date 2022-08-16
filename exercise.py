@@ -69,8 +69,7 @@ print("Well done! Now you got it")
 
 #Task6ex5
 
-
-
+'''
 c = input("Input the scale schortcut you'd like to convert:(F - Fahrenheit, C - Celsius) ")
 if c == "C" or c == "c":
     res1 = input("Input the value of temperature you'd like to convert to Fahrenheit: ")
@@ -95,6 +94,14 @@ else:
     print("I dont now what you mean")
 
 
+'''
+#Task7ex5#
 
-#Task7ex5
+print("*\n**\n***\n****\n*****")    # eine zeile
+print("****\n***\n**\n*")
 
+count = 5
+for i in range(count + 1):          # for loop
+    print("*" * i)
+for i in range(count -1, -1, -1):
+    print("*" * i)
