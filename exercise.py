@@ -70,10 +70,31 @@ print("Well done! Now you got it")
 #Task6ex5
 
 
+
 c = input("Input the scale schortcut you'd like to convert:(F - Fahrenheit, C - Celsius) ")
 if c == "C" or c == "c":
-    result1 = int(input("Input the value of temperature you'd like to convert: "))
-    
+    res1 = input("Input the value of temperature you'd like to convert to Fahrenheit: ")
+    if res1.isdecimal():
+        res1 = float(res1)
+        res1 = ((res1*9/5) + 32)
+        print("The temperature in Fahrenheit is", res1, "degrees.")
+    else:
+        print("please enter a valid number !")
+
 elif c == "F" or c == "f":
-    result2 = int(input("Input the value of temperature you'd like to convert: "))
+    res2 = float(input("Input the value of temperature you'd like to convert to Celsius: "))
+
+    if res2.isdecimal():
+        res2 = float(res1)
+        res2 = ((res2-32) * 5/9)
+        print("The temperature in Celsius is", res2, "degrees.")
+    else:
+        print("please enter a valid number !")
+
+else:
+    print("I dont now what you mean")
+
+
+
+#Task7ex5
 
