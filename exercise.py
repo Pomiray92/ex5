@@ -18,7 +18,7 @@ if a == b == c:
 else:
     print(result)
 '''
-
+'''
 #Task2ex5
 a = int(input(" Enter a Number 1: "))
 b = int(input(" Enter a Number 2: "))
@@ -26,7 +26,7 @@ b = int(input(" Enter a Number 2: "))
 if a > b:    
     print("Dein ergebnis ist: ")
 
-
+'''
 
 '''
 
@@ -41,6 +41,7 @@ else:
 
 
 #Task4ex5
+
 from cmath import pi
 import math
 
@@ -48,20 +49,31 @@ r = float(input("Input the radius of the circle:  "))
 result = round((pi*r**2),2)
 print("The area of the circle with radius", r, "is", result)
 
+
 '''
-'''
+
 #Task5ex5
 
-guess = int(input("Guess a number between 1 and 10 until you get it rigth : "))
-if guess == 2:
-    print("Well done! You guessed rigth on the first try!")
-else:        
-    while guess != 2:
-        guess = int(input("Guess a number between 1 and 10 : "))
-        if guess == 2:
-            print("Well done! Now you got it")
+'''
+
+#guess = int(input("Guess a number between 1 and 10 until you get it rigth : "))
+#if guess == 2:
+    #print("Well done! You guessed rigth on the first try!")   
+guess = 1      
+while guess != 2: #bis guess nicht 2, ist hör nicht auf. 
+    guess = int(input("Guess a number between 1 and 10 : "))
+
+print("Well done! Now you got it")
 
 '''
 
 #Task6ex5
+
+
+c = input("Input the scale schortcut you'd like to convert:(F - Fahrenheit, C - Celsius) ")
+if c == "C" or c == "c":
+    result1 = int(input("Input the value of temperature you'd like to convert: "))
+    
+elif c == "F" or c == "f":
+    result2 = int(input("Input the value of temperature you'd like to convert: "))
 
