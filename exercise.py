@@ -18,7 +18,7 @@ if a == b == c:
 else:
     print(result)
 '''
-'''
+
 #Task2ex5
 a = int(input(" Enter a Number 1: "))
 b = int(input(" Enter a Number 2: "))
@@ -26,7 +26,6 @@ b = int(input(" Enter a Number 2: "))
 if a > b:    
     print("Dein ergebnis ist: ")
 
-'''
 
 '''
 
@@ -109,7 +108,7 @@ for i in range(count -1, -1, -1):
     print("*" * i)
 
 '''
-'''
+
 
 #Task8ex5
 import math
@@ -130,4 +129,13 @@ else:
         fib2 = result
         count +=1
 
-'''
+import math
+    count < userinp:
+        print(fib1)
+        result = fib1 + fib2
+        fib1 = fib2
+        fib2 = result
+        count +=1
+
+
+#jskdkj
